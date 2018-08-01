@@ -408,7 +408,7 @@
     font-size: 3.125rem !important;
   }
   .g-font-size-55--md {
-    font-size: 3.4375rem !important;
+    font-size: 5rem !important;
   }
   .g-font-size-60--md {
     font-size: 3.75rem !important;
@@ -2159,7 +2159,7 @@
 }
 
 .g-margin-b-30--xs {
-  margin-bottom: 1.875rem;
+  margin-bottom:4rem;
 }
 
 .g-margin-b-35--xs {
