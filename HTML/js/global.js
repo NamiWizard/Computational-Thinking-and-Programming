@@ -130,3 +130,17 @@ var Global = function() {
 $(document).ready(function() {
   Global.init();
 });
+$('.single_features_slide').owlCarousel({
+  responsiveClass: true,
+  autoplay: false,
+  items: 1,
+  loop: true,
+  dots: true,
+  nav: false,
+  navText: [
+      "<i class='lnr lnr-chevron-left'></i>",
+      "<i class='lnr lnr-chevron-right'></i>"
+  ],
+  autoplayHoverPause: true
+
+});
