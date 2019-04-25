@@ -3212,7 +3212,7 @@ button.btn-md:hover {
   background-size: cover;
 }
 
-.video,
+.video .main_video,
 .video2 .main_video {
   padding: 22px 0px 10px 0px;
   overflow: hidden;
