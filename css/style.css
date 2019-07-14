@@ -1118,6 +1118,18 @@ fieldset[disabled] .s-btn {
 /*----------------------------------
   Video
 ------------------------------------*/
+.ct2code_video_height {
+
+  height: 125vh;
+}
+
+.ct2code_video {
+  margin: auto;
+  border: 1px;
+  width: 70%;
+
+}
+
 .s-video__bg {
   position: relative;
 }
