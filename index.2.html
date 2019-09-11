@@ -8,15 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Computational Thinking and Programming</title>
-    <meta name="keywords" content="HTML5 Theme" />
-    <meta name="description" content="Megakit - HTML5 Theme">
-    <meta name="author" content="keenthemes.com">
+    <meta name="keywords" content="computer Thinking and Programing" />
+    <meta name="description" content="computer Thinking and Programing">
+    <meta name="author" content="THU">
 
     <!-- Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
 
     <!-- Vendor Styles -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
     <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css" />
     <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css" />
@@ -39,75 +40,44 @@
 <body>
 
 
-    <!--========== HEADER ==========-->
-    <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
-        <!-- Navbar -->
-        <div class="s-header__navbar">
-            <div class="s-header__container">
-                <div class="s-header__navbar-row">
-                    <div class="s-header__navbar-row-col">
 
-                        <!-- End Logo -->
-                    </div>
-                    <div class="s-header__navbar-row-col">
-                        <!-- Trigger -->
-                        <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                            <span class="s-header__trigger-icon"></span>
-                            <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-                                <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25"
-                                    stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-                            </svg>
-                        </a>
-                        <!-- End Trigger -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Navbar -->
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand mr-auto mr-lg-0" href="#">東海大學運算思維與程式設計</a>
+        <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <!-- Overlay -->
-        <div class="s-header-bg-overlay js__bg-overlay">
-            <!-- Nav -->
-            <nav class="s-header__nav js__scrollbar">
-                <div class="container-fluid">
-                    <!-- Menu List -->
-                    <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active"
-                                href="index.html">首頁</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="./ct2code.html">軟體介紹</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="./pbl.html">教案介紹</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="./app.html">APP介紹</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="./place.html">場域介紹</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="./news.html">相關報導</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="https://course.thu.edu.tw/search-result/107/2/運算思維/all/all">課程資訊</a></li>
-                        <li class="s-header__nav-menu-item"><a
-                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
-                                href="./copyright.html">版權宣告</a></li>
-                    </ul>
-                    <!-- End Menu List -->
+        <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">軟體介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">教案介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">APP介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">場域介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">相關報導</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">版權宣告</a>
+                </li>
 
-
-                </div>
-            </nav>
-            <!-- End Nav -->
+            </ul>
 
         </div>
-        <!-- End Overlay -->
-    </header>
-    <!--========== END HEADER ==========-->
+    </nav>
+    <!-- End Nav -->
+
 
 
     <!--========== SWIPER SLIDER ==========-->
@@ -115,11 +85,9 @@
         <!-- Swiper Wrapper -->
         <div class="swiper-wrapper">
             <div class="g-fullheight--xs g-bg-position--center swiper-slide"
-                style="background: url('img/1920x1080/20.jpg');">
+                style="background: url('img/1920x1080/21.jpg');">
                 <div class="container g-text-center--xs g-ver-center--xs">
                     <div class="g-margin-b-30--xs">
-                        <h3 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white"
-                            style="font-weight:bold;">東海大學<br>計算思維與程式設計</h3>
 
                     </div>
 
@@ -127,97 +95,179 @@
             </div>
 
         </div>
-        <!-- End Swiper Wrapper -->
-        <!-- Culture -->
-        <div class="g-promo-section">
-            <div class="container g-padding-y-80--xs g-padding-y-125--sm">
-                <div class="row">
-                    <div class="col-md-6 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
+    </div>
+    <!-- End Swiper Wrapper -->
+    <!--Introduce-->
+    <div class="row">
 
-                        <div>
-                            <h4 class="g-font-size-40--xs g-font-size-40--sm g-font-size-40--md">何謂</h4>
-                        </div>
-                        <div>
-                            <h4 class="g-font-size-40--xs g-font-size-50--sm g-font-size-50--md">流程圖導向思維</h4>
-                        </div>
-                        <div class=" col-md-8">
-                            <p class="g-font-size-22--xs" style="text-align: left">
-                                流程圖導向思維的精神在於將抽象的運算思維問題以流程圖的方式呈現，讓學生能逐步訓練從問題定義到解題步驟的邏輯脈絡。進而降低學生在思考如何解決抽象問題時的難度。</p>
+        <div class=" col-md-6 col-sm-12 order-md-last">
 
-                        </div>
+            <div class="row">
+                <div class="container-fluid index-grid-padding-img">
+                    <div class="index-img index-img-ct2code">
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class=" col-md-6 col-sm-12 order-md-first ">
+            <div class="row ">
+                <div class="container-fluid index-grid-padding-text">
+                    <h5>教學工具</h5>
+                    <h3>流程圖導向程式工具，<br>
+                        翻轉你對程式設計的學習體驗。
+                    </h3>
+                    <p>CT2Flow
+                        與CT2Code兩套工具給予學生運用圖像化學習程式的機會。學生若能將解題流程與關鍵步驟透過流程圖表現，CT2Code即可依所畫的流程圖自動生成程式碼，降低學生編寫程式的困難度。
+                    </p>
+
+                    <a href="./ct2code.html">進一步了解教學工具></a>
 
                 </div>
-
             </div>
-            <div
-                class="col-sm-6  g-promo-section__img-right--lg g-bg-position--center g-height-100-percent--md js__fullwidth-img">
-
-                <img class="img-responsive" src="img/970x970/test.jpg" alt="Image">
-            </div>
-
 
 
         </div>
-        <!-- End Culture -->
+    </div>
+    <div class="row">
 
+        <div class=" col-md-6 col-sm-12 order-md-first">
 
-
-        <!--========== FOOTER ==========-->
-        <footer class="g-bg-color--dark">
-
-
-            <!-- Copyright -->
-
-            <div class="container g-padding-y-20--xs">
-                <div class="row">
-                    <div class="col-xs-6 " align="right">
-                        <a href="http://thuhesp.thu.edu.tw/">
-                            <img class="g-width-150--xs g-height-auto--xs" src="./img/thu-logo.png" alt="Megakit Logo">
-                        </a>
-                    </div>
-                    <div class="col-xs-6 ">
-                        <br>
-                        <h6 style="color:#13b1cd">東海大學高教深耕支持<br>東海大學軟體工程與技術中心研發</h6>
+            <div class="row">
+                <div class="container-fluid index-grid-padding-img">
+                    <div class="index-img index-img-teaching">
                     </div>
                 </div>
             </div>
-            <!-- End Copyright -->
-        </footer>
+        </div>
+        <div class=" col-md-6 col-sm-12 order-md-last ">
+            <div class="row ">
+                <div class="container-fluid index-grid-padding-text">
+                    <h5>教學方法</h5>
+                    <h3>以UX為核心的創新教學，<br>
+                        營造互動性佳、高學習成效的學習環境。
+
+                    </h3>
+                    <p>以PBL為導向的課程設計，老師們從旁扮演促進者與引導者的角色，鼓勵學生進行小組討論，而在程式設計演練時，以圖形化呈現與填空方式，漸進式地引導學生完成程式撰寫與熟稔程式碼。
+
+                    </p>
+
+                    <a href="./pbl.html">進一步了解教學方法></a>
+
+                </div>
+            </div>
 
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+        </div>
+    </div>
+    <div class="row">
 
-        <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
-        <!-- Vendor -->
-        <script type="text/javascript" src="vendor/jquery.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
-        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
-        <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
-        <script type="text/javascript" src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
-        <script type="text/javascript" src="vendor/waypoint.min.js"></script>
-        <script type="text/javascript" src="vendor/counterup.min.js"></script>
-        <script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
-        <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
+        <div class=" col-md-6 col-sm-12 order-md-last">
 
-        <!-- General Components and Settings -->
-        <script type="text/javascript" src="js/global.min.js"></script>
-        <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
-        <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
-        <script type="text/javascript" src="js/components/magnific-popup.min.js"></script>
-        <script type="text/javascript" src="js/components/swiper.min.js"></script>
-        <script type="text/javascript" src="js/components/counter.min.js"></script>
-        <script type="text/javascript" src="js/components/portfolio-3-col.min.js"></script>
-        <script type="text/javascript" src="js/components/parallax.min.js"></script>
-        <script type="text/javascript" src="js/components/google-map.min.js"></script>
-        <script type="text/javascript" src="js/components/wow.min.js"></script>
-        <!--========== END JAVASCRIPTS ==========-->
+            <div class="row">
+                <div class="container-fluid index-grid-padding-img">
+                    <div class="index-img index-img-app">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" col-md-6 col-sm-12 order-md-first ">
+            <div class="row ">
+                <div class="container-fluid index-grid-padding-text">
+                    <h5>行動教材</h5>
+                    <h3>碎片化學習單元，<br>
+                        結合行動載具實現行動學習。
+
+                    </h3>
+                    <p>CT2Flow
+                        與CT2Code兩套工具給予學生運用圖像化學習程式的機會。學生若能將解題流程與關鍵步驟透過流程圖表現，CT2Code即可依所畫的流程圖自動生成程式碼，降低學生編寫程式的困難度。
+                    </p>
+
+                    <a href="./app.html">進一步了解行動教材></a>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row">
+
+        <div class=" col-md-6 col-sm-12 order-md-first">
+
+            <div class="row">
+                <div class="container-fluid index-grid-padding-img">
+                    <div class="index-img index-img-place">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" col-md-6 col-sm-12 order-md-last ">
+            <div class="row ">
+                <div class="container-fluid index-grid-padding-text">
+                    <h5>教學場域</h5>
+                    <h3>創新PBL教室，<br>
+                        數位科技激發無限想像力。
+
+                    </h3>
+                    <p>「問題導向學習」教室，教室場域的正中央上方，輔以類似NBA球場的環形電視牆，藉由ICT物聯網技術的連結，老師可透過無線控制，隨時播放教材內容或直播學生解題過程。另外，在小組討論時，小組成員可以分享該組內容給其他小組，促進大家討論、激發想法。
+                    </p>
+
+                    <a href="./place.html">進一步了解教學場域></a>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--End Introduce-->
+
+    <!--========== FOOTER ==========-->
+    <footer class="mastfoot mt-auto g-bg-color--dark">
+        <div class="g-padding-y-50--xs" style="text-align: center">
+            <h6 style="color:#13b1cd">東海大學高教深耕支持、東海大學軟體工程與技術中心研發</h6>
+            <a style="color:#13b1cd">聯絡人:李政雄教師 &nbsp聯絡信箱:hsiung@thu.edu.tw</a>
+
+        </div>
+    </footer>
+
+
+    <!--========== END FOOTER ==========-->
+
+
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+
+    <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+    <!-- Vendor -->
+    <script type="text/javascript" src="vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
+    <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
+    <script type="text/javascript" src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/waypoint.min.js"></script>
+    <script type="text/javascript" src="vendor/counterup.min.js"></script>
+    <script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+    <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
+
+    <!-- General Components and Settings -->
+    <script type="text/javascript" src="js/global.js"></script>
+    <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
+    <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
+    <script type="text/javascript" src="js/components/magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/components/swiper.min.js"></script>
+    <script type="text/javascript" src="js/components/counter.min.js"></script>
+    <script type="text/javascript" src="js/components/portfolio-3-col.min.js"></script>
+    <script type="text/javascript" src="js/components/parallax.min.js"></script>
+    <script type="text/javascript" src="js/components/google-map.min.js"></script>
+    <script type="text/javascript" src="js/components/wow.min.js"></script>
+    <!--========== END JAVASCRIPTS ==========-->
 
 </body>
 <!-- End Body -->
