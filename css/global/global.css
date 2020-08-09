@@ -1152,6 +1152,11 @@
   background-position: center center !important;
 }
 
+.g-bg-position--left{
+  background-size: cover !important;
+  background-position: center left !important;
+}
+
 .g-bg--fixed {
   background-attachment: fixed;
   min-height: 100%;
